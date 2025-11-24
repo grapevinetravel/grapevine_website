@@ -114,7 +114,7 @@ export default function CorporatePage() {
       <Usp
         subtitle="Why now?"
         title="Modern travel is making policy adherence harder than ever."
-        description="With the rise of public AI tools and consumer booking channels, travellers have more options - and fewer reasons to stay in-policy. Without action, leakage will only grow. Grapevine helps corporates stay ahead by:"
+        description="With the rise of public AI tools and consumer booking channels, travellers have more options - and fewer reasons to stay in-policy. Without action, leakage will only grow. Grapevine can help to:"
         items={[
           {
             icon: "clipboard-check",
@@ -147,7 +147,7 @@ export default function CorporatePage() {
             every partner.
           </>
         }
-        pillarsTitle="3 Pillars, 1 Assistant"
+        pillarsTitle="3 Pillars, 1 Platform"
         pillars={pillars}
       />
       <TrustBuilder
@@ -176,7 +176,7 @@ export default function CorporatePage() {
       <CtaSection
         title="Keep your travellers compliant, supported, and confident, without new systems or added workload."
         description="Deliver the traveller experience your competitors can't."
-        buttonText="Parner with us"
+        buttonText="Partner with us"
         buttonHref="/contact"
       />
     </>

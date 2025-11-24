@@ -1,6 +1,6 @@
 # Grapevine
 
-The AI-Native Personal Assistant for Business Travel.
+The Smart Communications Platform for Business Travel.
 
 ## Tech Stack
 

@@ -30,10 +30,10 @@ export default function Home() {
     {
       title: "Why TMCs Work With Us",
       items: [
-        { text: "Capture missed hotel and ancillary bookings.", icon: "house" },
+        { text: "Capture missed hotel and ancillary bookings to drive revenue.", icon: "house" },
         { text: "Automate post-booking follow-up with zero consultant workload.", icon: "cog" },
-        { text: "White-label assistant that strengthens your brand", icon: "sparkles" },
-        { text: "Go live in under 4 hours of your team's time", icon: "rocket" },
+        { text: "Offer 24/7, total trip support, building brand and trust", icon: "sparkles" },
+        { text: "Activate in under 4 hours of your team's time", icon: "rocket" },
       ],
       image: "/images/why-choose-us/why-choose-us-01.png",
       buttonText: "See TMC Benefits",
@@ -79,8 +79,8 @@ export default function Home() {
       <HeroPartners />
       <Features
         subtitle="How it works"
-        title="Grapevine is a secure, AI-native travel assistant."
-        description="We help travellers book in-platform, improving duty of care for corporates and increasing revenue per trip for TMCs."
+        title="Grapevine is a secure, AI native platform that drives in platform bookings and delivers real time trip support."
+        description="We help travellers make better decisions at every stage of their journey, improving duty of care for corporates and increasing revenue per trip for TMCs."
         footer="Our process follows four key steps:"
         steps={featureSteps}
         ctaText="Book a demo"
@@ -91,7 +91,7 @@ export default function Home() {
             every partner.
           </>
         }
-        pillarsTitle="3 Pillars, 1 Assistant"
+        pillarsTitle="3 Pillars, 1 Platform"
         pillars={pillars}
       />
       <AlternatingContent

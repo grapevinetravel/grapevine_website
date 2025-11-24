@@ -39,7 +39,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-light mb-8 text-sm leading-[140%] md:mb-[46px] md:text-base">
-              The AI-Native Personal Assistant for Business Travel
+              The Smart Communications Platform for Business Travel
             </p>
 
             {/* Contact Info */}
@@ -155,6 +155,13 @@ export default function Footer() {
               <XIcon width={20} height={20} />
             </a>
           </div>
+        </div>
+
+        {/* Sources Section */}
+        <div className="border-border-navy-subtle mt-8 border-t pt-6 md:mt-10 md:pt-8">
+          <p className="text-light/70 text-[10px] leading-relaxed md:text-xs">
+            <sup>1</sup> GBTA/Phocuswright Corporate Travel Leakage Report (2023) <sup>2</sup> Deloitte & Phocuswright Global Business Travel Market (2024) <sup>3</sup> Expedia/Statista AI in Travel (2024) <sup>4</sup> Deloitte AI in Travel & Hospitality (2024)
+          </p>
         </div>
       </div>
     </footer>

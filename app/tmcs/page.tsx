@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 export default function TMCS() {
   const serviceSchema = generateServiceSchema(
     "Grapevine for TMCs",
-    "AI-native platform helping TMCs capture missed hotel and ancillary bookings, automate post-booking follow-up, and deliver modern traveller experiences.",
+    "AI-native platform helping TMCs Capture missed hotel and ancillary bookings to drive revenue, automate post-booking follow-up, and deliver modern traveller experiences.",
     "/tmcs",
     "Travel Management Software"
   );
@@ -98,7 +98,7 @@ export default function TMCS() {
               {
                 text: (
                   <>
-                    <strong>Provide</strong> free consultants for higher-value client work
+                    <strong>Free Up</strong> consultants for higher-value client work
                   </>
                 ),
                 icon: "user-round-check",
@@ -132,7 +132,7 @@ export default function TMCS() {
             every partner.
           </>
         }
-        pillarsTitle="3 Pillars, 1 Assistant"
+        pillarsTitle="3 Pillars, 1 Platform"
         pillars={pillars}
       />
       <TrustBuilder
@@ -173,7 +173,7 @@ export default function TMCS() {
           </>
         }
         description="Deliver the traveller experience your competitors can't."
-        buttonText="Parner with us"
+        buttonText="Partner with us"
         buttonHref="/contact"
       />
     </>

@@ -2,7 +2,7 @@ export const featureSteps = [
   {
     title: "Detect",
     description:
-      "Our AI identifies missing hotels, taxis, or parking as soon as a flight is booked.",
+      "Our AI-powered platform identifies missing hotels, taxis, or parking as soon as a flight is booked.",
     image: "/images/features/detect.png",
     icon: "plane" as const,
   },

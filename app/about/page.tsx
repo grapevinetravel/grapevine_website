@@ -39,8 +39,8 @@ export default function About() {
       <Usp
         variant="light"
         subtitle="Our mission is simple"
-        title="To give every business traveller the same support as a personal assistant"
-        description="What began as smart hotel nudges has evolved into a secure, AI-powered assistant that supports every part of the journey - helping travellers stay in-policy, informed, and supported, while every booking remains visible within the TMC ecosystem."
+        title="To help TMCs and corporates support travellers 24/7 like a personal assistant, at a fraction of the cost"
+        description="Combining proactive outreach to keep every booking in-platform and in-policy, and being there for travellers throughout their trips, at the touch of a button."
         items={[
           {
             icon: "shield-check",
