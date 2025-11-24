@@ -47,7 +47,7 @@ export default function ContactForm({ className = "" }: ContactFormProps) {
   const maxChars = 250;
 
   const validateEmail = (email: string): boolean => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$/;
     return emailRegex.test(email);
   };
 
@@ -86,23 +86,41 @@ export default function ContactForm({ className = "" }: ContactFormProps) {
     if (validateForm()) {
       setIsLoading(true);
 
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      try {
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
 
-      console.log("Form submitted:", formData);
-      // Reset form
-      setFormData({
-        fullName: "",
-        workEmail: "",
-        iAmA: "",
-        companyName: "",
-        role: "",
-        message: "",
-      });
-      setCharCount(0);
-      setErrors({});
-      setIsLoading(false);
-      setIsSubmitted(true);
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || "Failed to submit form");
+        }
+
+        console.log("Form submitted successfully:", formData);
+
+        // Reset form
+        setFormData({
+          fullName: "",
+          workEmail: "",
+          iAmA: "",
+          companyName: "",
+          role: "",
+          message: "",
+        });
+        setCharCount(0);
+        setErrors({});
+        setIsSubmitted(true);
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        // You might want to add error state handling here
+        alert("There was an error submitting the form. Please try again.");
+      } finally {
+        setIsLoading(false);
+      }
     }
   };
 
