@@ -113,7 +113,7 @@ export default function About() {
               {
                 name: "Landry Holl",
                 role: "Advisor",
-                description: "Former Head of Innovation at Amadeus and CEO of Faival.",
+                description: "Former Head of Innovation at Amadeus and CEO of Fairval.",
                 image: "/images/team-members/landry-holl.png",
               },
               {

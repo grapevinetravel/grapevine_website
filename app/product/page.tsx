@@ -91,7 +91,7 @@ export default function ProductsPage() {
           {
             title: "Detect",
             icon: "plane",
-            subtitle: "Spot what&apos;s missing the moment a trip is booked",
+            subtitle: "Spot what's missing the moment a trip is booked",
             items: [
               {
                 text: "Identify gaps such as hotel, transfer, parking, lounge, or fast track",
