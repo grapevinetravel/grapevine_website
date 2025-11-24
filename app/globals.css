@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #1980ef;
+  --color-primary-hover: #1570d6;
+  --color-primary-light: #3d96f3;
+
+  /* Base Colors */
+  --color-white: #ffffff;
+  --color-slate: #f8fafc;
+  --color-navy: #0c0e2d;
+  --color-light: #f3f7fc;
+
+  /* Semantic Colors */
+  --color-body: #5c6876;
+  --color-muted: #9ca9b7;
+  --color-subtle: #e1e7ee;
+
+  /* Border Colors */
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+  --color-border-muted: #cbd6e3;
+  --color-border-navy-subtle: #2a3142;
+
+  /* State Colors */
+  --color-error: #ef4444;
+  --color-error-light: #fef2f2;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fffbeb;
+  --color-success: #10b981;
+  --color-success-light: #f0fdf4;
+  --color-info: #3b82f6;
+  --color-info-light: #eff6ff;
+
+  /* Badge Colors */
+  --color-badge-blue-text: #0b4a6f;
+  --color-badge-blue-bg: #f0f9ff;
+  --color-badge-green-text: #064e3b;
+  --color-badge-green-bg: #ecfdf5;
+  --color-badge-purple-text: #6f0b58;
+  --color-badge-purple-bg: #fff0fd;
+
+  /* Typography */
+  --font-sans: var(--font-ambit), Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior-y: none;
+}
+
+html {
+  background: var(--color-body);
+}
+
+body {
+  background: var(--color-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
+}

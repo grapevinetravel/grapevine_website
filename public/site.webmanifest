@@ -1,0 +1,13 @@
+{
+    "name": "Grapevine",
+    "short_name": "Grapevine",
+    "description": "AI Powered Traveller Communications",
+    "theme_color": "#141C25",
+    "icons": [
+        {
+            "src": "/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

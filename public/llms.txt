@@ -1,0 +1,25 @@
+# Grapevine
+
+> Grapevine is a B2B travel technology platform that connects Travel Management Companies (TMCs) with corporate clients through a unified marketplace.
+
+## About
+
+Grapevine provides a core platform that streamlines the relationship between TMCs and corporate travel buyers. The platform offers:
+
+- **For TMCs**: Tools to showcase services, manage proposals, and connect with corporate clients
+- **For Corporates**: A marketplace to discover, compare, and engage with travel management partners
+- **Core Platform**: Unified infrastructure for seamless travel program management
+
+## Pages
+
+- /: Homepage - Overview of the Grapevine platform
+- /tmcs: Information for Travel Management Companies
+- /corporate: Information for Corporate travel buyers
+- /product: Product features and capabilities
+- /about: Company information and team
+- /resources: Industry resources and insights
+- /contact: Contact form and demo booking
+
+## Contact
+
+To book a demo or learn more about Grapevine, visit /contact.
