@@ -159,8 +159,8 @@ export default function TMCS() {
           },
           {
             quote:
-              "Delivering a personalised retailing experience and maximizing revenues per trip has never been more important for a TMC",
-            author: "Vinod George, CTO, Omega World Travel",
+              "Delivering a highly personalised user experience and driving policy compliance in tandem with maximizing per-trip revenue has never been more important for a TMC",
+            author: "Stephen Inskip, CTO, Omega World Travel",
           },
         ]}
       />

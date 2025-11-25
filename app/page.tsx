@@ -12,14 +12,14 @@ import { featureSteps, pillars } from "@/data/features";
 export const metadata: Metadata = {
   title: "Grapevine - AI Powered Traveller Communications",
   description:
-    "Drive in-platform bookings with AI-powered traveller communications. Grapevine helps TMCs increase hotel attachment rates by 20% and achieve 95% traveller satisfaction.",
+    "Grapevine detects gaps in itineraries and sends personalised prompts that encourage traveller to book in-platform, driving compliance for corporates and revenue for TMCs.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Grapevine - AI Powered Traveller Communications",
     description:
-      "Drive in-platform bookings with AI-powered traveller communications. Increase hotel attachment rates and traveller satisfaction.",
+      "Grapevine detects gaps in itineraries and sends personalised prompts that encourage traveller to book in-platform, driving compliance for corporates and revenue for TMCs.",
   },
 };
 

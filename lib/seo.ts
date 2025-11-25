@@ -1,9 +1,7 @@
-import { Metadata } from "next";
-
 export const siteConfig = {
   name: "Grapevine",
   description:
-    "Drive in-platform bookings with AI-powered traveller communications. Grapevine helps TMCs and corporates increase hotel attachment rates and traveller satisfaction.",
+    "Grapevine detects gaps in itineraries and sends personalised prompts that encourage traveller to book in-platform, driving compliance for corporates and revenue for TMCs.",
   url: process.env.NEXT_PUBLIC_APP_URL || "https://grapevine.travel",
   ogImage: "/images/og-image.png",
   xHandle: "grapevine_trvl",
@@ -22,79 +20,6 @@ export const siteConfig = {
     "travel policy compliance",
   ],
 };
-
-interface PageMetadataProps {
-  title?: string;
-  description?: string;
-  keywords?: string[];
-  image?: string;
-  noIndex?: boolean;
-  pathname?: string;
-}
-
-export function generateMetadata({
-  title,
-  description,
-  keywords,
-  image,
-  noIndex = false,
-  pathname = "",
-}: PageMetadataProps): Metadata {
-  const pageTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name;
-  const pageDescription = description || siteConfig.description;
-  const pageImage = image || siteConfig.ogImage;
-  const pageKeywords = keywords ? [...siteConfig.keywords, ...keywords] : siteConfig.keywords;
-  const canonicalUrl = `${siteConfig.url}${pathname}`;
-
-  return {
-    title: pageTitle,
-    description: pageDescription,
-    keywords: pageKeywords,
-    authors: [{ name: siteConfig.name }],
-    creator: siteConfig.name,
-    publisher: siteConfig.name,
-    metadataBase: new URL(siteConfig.url),
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      type: "website",
-      locale: siteConfig.locale,
-      url: canonicalUrl,
-      title: pageTitle,
-      description: pageDescription,
-      siteName: siteConfig.name,
-      images: [
-        {
-          url: pageImage,
-          width: 1200,
-          height: 630,
-          alt: pageTitle,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: pageTitle,
-      description: pageDescription,
-      images: [pageImage],
-      ...(siteConfig.xHandle && { creator: `@${siteConfig.xHandle}` }),
-    },
-    robots: noIndex
-      ? { index: false, follow: false }
-      : {
-          index: true,
-          follow: true,
-          googleBot: {
-            index: true,
-            follow: true,
-            "max-video-preview": -1,
-            "max-image-preview": "large",
-            "max-snippet": -1,
-          },
-        },
-  };
-}
 
 export interface OrganizationSchema {
   "@context": "https://schema.org";
