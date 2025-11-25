@@ -37,7 +37,7 @@ export default async function Image() {
             style={{
               fontSize: 72,
               fontWeight: 700,
-              color: "#00D4AA",
+              color: "#1980ef",
               textAlign: "center",
             }}
           >
@@ -52,17 +52,7 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            AI-Powered Travel Assistant for TMCs & Corporates
-          </div>
-          <div
-            style={{
-              fontSize: 24,
-              color: "#94A3B8",
-              textAlign: "center",
-              maxWidth: "700px",
-            }}
-          >
-            Drive in-platform bookings with intelligent traveller communications
+            The Smart Communications Platform for Business Travel
           </div>
         </div>
       </div>
