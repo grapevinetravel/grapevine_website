@@ -1,10 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import { Mail, MapPin } from "lucide-react";
 import XIcon from "./icons/x";
 import Link from "next/link";
 import LinkedInIcon from "./icons/linkedin";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const platformLinks = [
     { label: "Corporate", href: "/corporate" },
     { label: "TMCs", href: "/tmcs" },
@@ -157,12 +162,14 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Sources Section */}
-        <div className="border-border-navy-subtle mt-8 border-t pt-6 md:mt-10 md:pt-8">
-          <p className="text-light/70 text-[10px] leading-relaxed md:text-xs">
-            <sup>1</sup> GBTA/Phocuswright Corporate Travel Leakage Report (2023) <sup>2</sup> Deloitte & Phocuswright Global Business Travel Market (2024) <sup>3</sup> Expedia/Statista AI in Travel (2024) <sup>4</sup> Deloitte AI in Travel & Hospitality (2024)
-          </p>
-        </div>
+        {/* Sources Section - Only show on home page */}
+        {isHomePage && (
+          <div className="border-border-navy-subtle mt-8 border-t pt-6 md:mt-10 md:pt-8">
+            <p className="text-light/70 text-[10px] leading-relaxed md:text-xs">
+              <sup>1</sup> GBTA/Phocuswright Corporate Travel Leakage Report (2023) <sup>2</sup> Deloitte & Phocuswright Global Business Travel Market (2024) <sup>3</sup> Expedia/Statista AI in Travel (2024) <sup>4</sup> Deloitte AI in Travel & Hospitality (2024)
+            </p>
+          </div>
+        )}
       </div>
     </footer>
   );
