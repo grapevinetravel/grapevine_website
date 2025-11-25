@@ -22,12 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/corporate",
-  },
-  openGraph: {
-    title: "Grapevine - Corporate",
-    description:
-      "Reduce leakage, improve compliance, and deliver a better employee travel experience with Grapevine.",
-  },
+  }
 };
 
 export default function CorporatePage() {

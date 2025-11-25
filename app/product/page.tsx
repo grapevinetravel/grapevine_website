@@ -20,12 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/product",
-  },
-  openGraph: {
-    title: "Grapevine - Product",
-    description:
-      "A vertically integrated, real-time Customer Data Platform powering an intelligent ancillary marketplace.",
-  },
+  }
 };
 
 export default function ProductsPage() {

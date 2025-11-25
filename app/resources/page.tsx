@@ -9,12 +9,7 @@ export const metadata: Metadata = {
     "Explore insights for smarter business travel. Access reports, case studies, and thought leadership for corporates, TMCs, and the travel community.",
   alternates: {
     canonical: "/resources",
-  },
-  openGraph: {
-    title: "Grapevine Resources - Insights for Smarter Business Travel",
-    description:
-      "Explore reports, case studies, and thought leadership for corporates, TMCs, and the travel community.",
-  },
+  }
 };
 
 export default function Resources() {

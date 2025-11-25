@@ -15,12 +15,7 @@ export const metadata: Metadata = {
     "Grapevine detects gaps in itineraries and sends personalised prompts that encourage traveller to book in-platform, driving compliance for corporates and revenue for TMCs.",
   alternates: {
     canonical: "/",
-  },
-  openGraph: {
-    title: "Grapevine - AI Powered Traveller Communications",
-    description:
-      "Grapevine detects gaps in itineraries and sends personalised prompts that encourage traveller to book in-platform, driving compliance for corporates and revenue for TMCs.",
-  },
+  }
 };
 
 export default function Home() {

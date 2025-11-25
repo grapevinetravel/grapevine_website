@@ -22,12 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/tmcs",
-  },
-  openGraph: {
-    title: "Grapevine - TMCs",
-    description:
-      "Capture missed bookings, automate post-booking follow-up, and deliver modern traveller experiences with Grapevine.",
-  },
+  }
 };
 
 export default function TMCS() {
@@ -160,7 +155,7 @@ export default function TMCS() {
           {
             quote:
               "Delivering a highly personalised user experience and driving policy compliance in tandem with maximizing per-trip revenue has never been more important for a TMC",
-            author: "Stephen Inskip, CTO, Omega World Travel",
+            author: "Stephen Inskip, Commercial Director, Meon Travel Management",
           },
         ]}
       />

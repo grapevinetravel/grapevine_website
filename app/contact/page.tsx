@@ -10,12 +10,7 @@ export const metadata: Metadata = {
     "Book a discovery call with Grapevine. Let's discuss how our AI-powered travel assistant can help your TMC or corporate travel programme.",
   alternates: {
     canonical: "/contact",
-  },
-  openGraph: {
-    title: "Grapevine - Contact",
-    description:
-      "Book a discovery call with Grapevine. Let's discuss how our AI-powered travel assistant can help your travel programme.",
-  },
+  }
 };
 
 export default function Contact() {

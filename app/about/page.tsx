@@ -13,12 +13,7 @@ export const metadata: Metadata = {
     "Meet the team behind Grapevine - the AI-native assistant that keeps business travellers compliant, supported, and in-policy. Learn about our mission to transform corporate travel.",
   alternates: {
     canonical: "/about",
-  },
-  openGraph: {
-    title: "Grapevine - About",
-    description:
-      "Meet the team behind Grapevine and learn about our mission to give every business traveller the same support as a personal assistant.",
-  },
+  }
 };
 
 export default function About() {
